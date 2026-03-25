@@ -1,0 +1,27 @@
+# ── Core app dependencies ──────────────────────────────────────────────────
+streamlit>=1.28
+pandas>=2.0
+numpy>=1.24
+plotly>=5.0
+
+# ── Map rendering ──────────────────────────────────────────────────────────
+# folium and streamlit-folium are pinned — newer folium breaks JSON serialization
+folium==0.19.5
+streamlit-folium==0.22.0
+
+# ── Geospatial (district boundary lookup) ─────────────────────────────────
+shapely>=2.0
+geopandas>=0.14
+
+# ── Machine learning (linear regression simulation model) ─────────────────
+scikit-learn>=1.3
+
+# ── PDF report generation ──────────────────────────────────────────────────
+fpdf2>=2.7
+
+# ── Excel file support (for .xlsx uploads) ────────────────────────────────
+openpyxl>=3.1
+
+# ── Testing ────────────────────────────────────────────────────────────────
+pytest>=7.0
+hypothesis>=6.0

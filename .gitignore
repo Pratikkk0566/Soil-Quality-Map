@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environments
+venv/
+.venv/
+env/
+.env/
+
+# Pytest / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# IDE / OS
+.vscode/
+.idea/
+*.DS_Store
+Thumbs.db
+
+# Kiro spec files (internal dev tooling — not needed by end users)
+.kiro/
+
+# Large generated files — regenerate with the script in data/README.md
+# (comment these out if you want to commit the data files)
+# data/climate_seasonal.csv
+# data/soil_data_historical.csv
