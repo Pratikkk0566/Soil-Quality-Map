@@ -25,7 +25,7 @@ A farmer-friendly web application that maps soil health across all **36 Maharash
 
 ---
 
-## ⚡ Quick Start
+## ⚡ Quick Start Guide
 
 ```bash
 # 1. Clone the repo
